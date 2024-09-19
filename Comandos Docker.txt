@@ -1,0 +1,10 @@
+Comandos Docker: 
+
+docker images
+Docker ps 
+Docker run -p 80:80 <nome-container>
+Docker stop <nome-container>
+
+docker run --name meu-postgres-banco -e POSTGRES_PASSWORD=minhasenha -d -p 5432:5432 meu-postgres-com-dados
+Docker stop <nome-container>
+docker rm meu-postgres-banco
